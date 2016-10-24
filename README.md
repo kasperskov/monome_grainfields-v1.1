@@ -1,4 +1,4 @@
-# Monome Grainfields
+# grainfields
 8 voice granular synthesizer for 128 grids
 
 ### Getting started
