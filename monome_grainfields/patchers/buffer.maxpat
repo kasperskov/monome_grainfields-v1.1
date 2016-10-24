@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1849.0, 163.0, 345.0, 130.0 ],
+		"rect" : [ 449.0, 260.0, 345.0, 130.0 ],
 		"bgcolor" : [ 0.878431, 0.878431, 0.858824, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -5496,7 +5496,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr @autoname 1",
-					"varname" : "u103025060"
+					"varname" : "u438006945"
 				}
 
 			}
@@ -7808,6 +7808,7 @@
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
 					"checkedcolor" : [ 0.714616, 0.351664, 0.280036, 1.0 ],
 					"id" : "obj-23",
+					"ignoreclick" : 1,
 					"maxclass" : "toggle",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -8858,8 +8859,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11250,6 +11251,39 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-6" : [ "rslider[23]", "rslider", 0 ],
+			"obj-97" : [ "number[82]", "number[13]", 0 ],
+			"obj-135" : [ "number[3]", "rec length", 0 ],
+			"obj-11" : [ "number[5]", "speed", 0 ],
+			"obj-44" : [ "number[87]", "grains", 0 ],
+			"obj-98" : [ "rslider[21]", "rslider[2]", 0 ],
+			"obj-83" : [ "number[83]", "number[12]", 0 ],
+			"obj-84" : [ "number[84]", "number[11]", 0 ],
+			"obj-112" : [ "live.dial[31]", "deviation", 0 ],
+			"obj-63" : [ "number[85]", "number[10]", 0 ],
+			"obj-57" : [ "number[86]", "number[9]", 0 ],
+			"obj-136" : [ "live.dial[1]", "slope", 0 ],
+			"obj-151" : [ "number[4]", "fade", 0 ],
+			"obj-8" : [ "number[91]", "number", 0 ],
+			"obj-111" : [ "live.dial[32]", "pitch", 0 ],
+			"obj-21" : [ "number[90]", "number[1]", 0 ],
+			"obj-23" : [ "toggle[12]", "toggle", 0 ],
+			"obj-96" : [ "number[81]", "number[14]", 0 ],
+			"obj-22" : [ "number[88]", "number[5]", 0 ],
+			"obj-45" : [ "live.dial[29]", "spread", 0 ],
+			"obj-26" : [ "number[89]", "number[4]", 0 ],
+			"obj-85" : [ "rslider[22]", "rslider[1]", 0 ]
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "grain.maxpat",
+				"bootpath" : "~/Documents/Max 7/Projects/My projects/monome_grainfields-v1.0/monome_grainfields/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
@@ -11322,8 +11356,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

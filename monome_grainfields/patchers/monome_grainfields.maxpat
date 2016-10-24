@@ -1073,7 +1073,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "jit_matrix" ],
-									"patching_rect" : [ 31.0, 95.0, 606.745789, 606.745789 ],
+									"patching_rect" : [ 31.0, 95.0, 606.745789, 401.209991 ],
 									"pic" : "grid.png"
 								}
 
@@ -40495,8 +40495,8 @@
 			"obj-20::obj-8" : [ "number[121]", "number", 0 ],
 			"obj-16::obj-11" : [ "number[14]", "speed", 0 ],
 			"obj-16::obj-83" : [ "number[52]", "number[12]", 0 ],
-			"obj-17::obj-63" : [ "number[66]", "number[10]", 0 ],
 			"obj-17::obj-151" : [ "number[10]", "fade", 0 ],
+			"obj-17::obj-63" : [ "number[66]", "number[10]", 0 ],
 			"obj-21::obj-45" : [ "live.dial[42]", "spread", 0 ],
 			"obj-1::obj-85" : [ "rslider[17]", "rslider[1]", 0 ],
 			"obj-17::obj-85" : [ "rslider[14]", "rslider[1]", 0 ],
@@ -40526,8 +40526,8 @@
 			"obj-20::obj-11" : [ "number[107]", "speed", 0 ],
 			"obj-2::obj-111" : [ "live.dial[32]", "pitch", 0 ],
 			"obj-2::obj-23" : [ "toggle[12]", "toggle", 0 ],
-			"obj-16::obj-85" : [ "rslider[11]", "rslider[1]", 0 ],
 			"obj-16::obj-151" : [ "number[12]", "fade", 0 ],
+			"obj-16::obj-85" : [ "rslider[11]", "rslider[1]", 0 ],
 			"obj-20::obj-26" : [ "number[112]", "number[4]", 0 ],
 			"obj-2::obj-151" : [ "number[4]", "fade", 0 ],
 			"obj-17::obj-11" : [ "number[11]", "speed", 0 ],
@@ -40597,8 +40597,8 @@
 			"obj-20::obj-63" : [ "number[111]", "number[10]", 0 ],
 			"obj-2::obj-98" : [ "rslider[21]", "rslider[2]", 0 ],
 			"obj-16::obj-45" : [ "live.dial[13]", "spread", 0 ],
-			"obj-20::obj-45" : [ "live.dial[45]", "spread", 0 ],
 			"obj-20::obj-98" : [ "rslider[1]", "rslider[2]", 0 ],
+			"obj-20::obj-45" : [ "live.dial[45]", "spread", 0 ],
 			"obj-16::obj-97" : [ "number[51]", "number[13]", 0 ],
 			"obj-20::obj-84" : [ "number[115]", "number[11]", 0 ],
 			"obj-16::obj-96" : [ "number[50]", "number[14]", 0 ],
