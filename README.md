@@ -15,7 +15,7 @@ Drag and drop audio samples onto the waveform display of the individual voices, 
 
 Control individual voices directly in the application or via the included Lemur interface (requires Lemur on iPad). 
 
-Install the interface on iPad ('monome_grainfields.jzml' in project folder>other) and make sure to provide the correct port and host settings for incoming and outgoing OSC.
+Install the interface on iPad ('monome_grainfields.jzml' in the project folder) and make sure to provide the correct port and host settings for incoming and outgoing OSC.
 
 ### Grain parameters
 
