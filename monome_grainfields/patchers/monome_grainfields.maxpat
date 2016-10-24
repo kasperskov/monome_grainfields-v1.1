@@ -1073,7 +1073,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "jit_matrix" ],
-									"patching_rect" : [ 31.0, 95.0, 606.745789, 401.209991 ],
+									"patching_rect" : [ 31.0, 95.0, 606.745789, 606.745789 ],
 									"pic" : "grid.png"
 								}
 
@@ -1341,7 +1341,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1035.5, 106.0, 29.5, 22.0 ],
+					"patching_rect" : [ 1042.833374, 102.5, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "0"
 				}
@@ -1518,7 +1518,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 923.75, 550.0, 48.75, 20.0 ],
 					"style" : "",
-					"text" : "0 %",
+					"text" : "6 %",
 					"textcolor" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 					"textjustification" : 2
 				}
@@ -40115,6 +40115,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-38", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
@@ -40376,15 +40385,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-31", 0 ],
-					"disabled" : 0,
-					"hidden" : 1,
-					"source" : [ "obj-77", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-66", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
@@ -40484,8 +40484,8 @@
 			"obj-23::obj-135" : [ "number[99]", "rec length", 0 ],
 			"obj-23::obj-6" : [ "rslider[26]", "rslider", 0 ],
 			"obj-20::obj-135" : [ "number[116]", "rec length", 0 ],
-			"obj-2::obj-135" : [ "number[3]", "rec length", 0 ],
 			"obj-2::obj-112" : [ "live.dial[31]", "deviation", 0 ],
+			"obj-2::obj-135" : [ "number[3]", "rec length", 0 ],
 			"obj-16::obj-84" : [ "number[53]", "number[11]", 0 ],
 			"obj-20::obj-21" : [ "number[113]", "number[1]", 0 ],
 			"obj-2::obj-11" : [ "number[5]", "speed", 0 ],
@@ -40517,8 +40517,8 @@
 			"obj-23::obj-23" : [ "toggle[4]", "toggle", 0 ],
 			"obj-22::obj-151" : [ "number[100]", "fade", 0 ],
 			"obj-23::obj-26" : [ "number[46]", "number[4]", 0 ],
-			"obj-2::obj-22" : [ "number[88]", "number[5]", 0 ],
 			"obj-2::obj-136" : [ "live.dial[1]", "slope", 0 ],
+			"obj-2::obj-22" : [ "number[88]", "number[5]", 0 ],
 			"obj-20::obj-112" : [ "live.dial[47]", "deviation", 0 ],
 			"obj-2::obj-26" : [ "number[89]", "number[4]", 0 ],
 			"obj-1::obj-11" : [ "number[6]", "speed", 0 ],
@@ -40538,8 +40538,8 @@
 			"obj-16::obj-135" : [ "number[13]", "rec length", 0 ],
 			"obj-21::obj-111" : [ "live.dial[8]", "pitch", 0 ],
 			"obj-1::obj-23" : [ "toggle[7]", "toggle", 0 ],
-			"obj-17::obj-6" : [ "rslider[15]", "rslider", 0 ],
 			"obj-17::obj-135" : [ "number[9]", "rec length", 0 ],
+			"obj-17::obj-6" : [ "rslider[15]", "rslider", 0 ],
 			"obj-22::obj-26" : [ "number[34]", "number[4]", 0 ],
 			"obj-21::obj-98" : [ "rslider[4]", "rslider[2]", 0 ],
 			"obj-1::obj-84" : [ "number[76]", "number[11]", 0 ],
@@ -40597,8 +40597,8 @@
 			"obj-20::obj-63" : [ "number[111]", "number[10]", 0 ],
 			"obj-2::obj-98" : [ "rslider[21]", "rslider[2]", 0 ],
 			"obj-16::obj-45" : [ "live.dial[13]", "spread", 0 ],
-			"obj-20::obj-98" : [ "rslider[1]", "rslider[2]", 0 ],
 			"obj-20::obj-45" : [ "live.dial[45]", "spread", 0 ],
+			"obj-20::obj-98" : [ "rslider[1]", "rslider[2]", 0 ],
 			"obj-16::obj-97" : [ "number[51]", "number[13]", 0 ],
 			"obj-20::obj-84" : [ "number[115]", "number[11]", 0 ],
 			"obj-16::obj-96" : [ "number[50]", "number[14]", 0 ],
@@ -40656,55 +40656,55 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "buffer.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/My projects/monome_grainfields/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/My projects/monome_grainfields-v1.0/monome_grainfields/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "grain.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/My projects/monome_grainfields/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/My projects/monome_grainfields-v1.0/monome_grainfields/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yafr2.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/My projects/monome_grainfields/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/My projects/monome_grainfields-v1.0/monome_grainfields/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "grid.png",
-				"bootpath" : "~/Documents/Max 7/Projects/My projects/monome_grainfields/media",
+				"bootpath" : "~/Documents/Max 7/Projects/My projects/monome_grainfields-v1.0/monome_grainfields/media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "voice.png",
-				"bootpath" : "~/Documents/Max 7/Projects/My projects/monome_grainfields/media",
+				"bootpath" : "~/Documents/Max 7/Projects/My projects/monome_grainfields-v1.0/monome_grainfields/media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lemur.png",
-				"bootpath" : "~/Documents/Max 7/Projects/My projects/monome_grainfields/media",
+				"bootpath" : "~/Documents/Max 7/Projects/My projects/monome_grainfields-v1.0/monome_grainfields/media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "osc.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/My projects/monome_grainfields/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/My projects/monome_grainfields-v1.0/monome_grainfields/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "serialosc.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/My projects/monome_grainfields/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/My projects/monome_grainfields-v1.0/monome_grainfields/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "serialosc.js",
-				"bootpath" : "~/Documents/Max 7/Projects/My projects/monome_grainfields/code",
+				"bootpath" : "~/Documents/Max 7/Projects/My projects/monome_grainfields-v1.0/monome_grainfields/code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
