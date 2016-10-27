@@ -17,7 +17,7 @@ Every row represents a voice, and each voice contains a buffer with up to 10 ind
 
 - Each voice is activated by pressing the far left toggle on the grid.
 - The pattern recorder is activated when pressing the second toggle from the left.
-- Step 3-15 on each row control the playback position the buffer audio content.
+- Step 3-15 on each row control the playback position of the buffer audio content.
 - The far right toggle records an input into the buffer of the selected voice (change input source in the 'audio & osc setup' menu in the app).
 
 ### Grain parameters
