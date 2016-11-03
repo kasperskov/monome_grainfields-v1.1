@@ -51,4 +51,4 @@ Install the interface on iPad ('monome_grainfields.jzml' located in the project 
 
 Patch created by Kasper Fangel Skov 2016
 
-![alt tag](https://raw.githubusercontent.com/kasperskov/monome_grainfields-v1.0/master/monome_grainfields-v1.0/to/grainfields_interface.png)
+![alt tag](https://raw.githubusercontent.com/kasperskov/monome_grainfields-v1.0/master/monome_grainfields-v1.0/grainfields_interface.png)
